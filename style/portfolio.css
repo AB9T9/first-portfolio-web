@@ -33,6 +33,7 @@ nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
+    margin:0px 200px;
 
 }
 nav ul{
@@ -48,5 +49,40 @@ nav ul{
     border-radius:5px;
 } 
 .portfolio-image{
-     width: 200px;
+    max-width: 580px;
+    margin-bottom:0px;
+}
+.banner{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 0px 35px 0px 200px;
+    
+
+}
+.banner-content{
+   max-width:580px;
+   
+ 
+}
+.header{
+    background-image:url('/portfolio-images/developer.png'),url('/portfolio-images/header_bg.png');
+    background-repeat:no-repeat;
+    background-position:top left,bottom right;
+}
+main{
+       max-width: 1140px;
+    
+    margin: 0 auto;
+        background-color:#FFF8F3;
+}
+.section-title{
+    text-align:center;
+}
+.class-section{
+ width:827px;
+ margin:0 auto;
+ border:1px solid black;
+ background-color:white;
+ margin:130px auto;
 }
