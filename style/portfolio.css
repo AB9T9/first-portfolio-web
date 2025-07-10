@@ -154,7 +154,7 @@ main{
     text-align:left;
 }
 .myfooter{
-    border:2px solid black;
+  
     margin:0px auto;
     display:flex;
     padding:130px 130px;
@@ -188,4 +188,7 @@ main{
       background-color:white;
       margin-bottom:24px;
       border-radius:5px;
+    }
+    .footer-column a img{
+        margin-right:20px;
     }
