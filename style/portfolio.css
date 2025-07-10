@@ -73,7 +73,7 @@ nav ul{
  
 }
 .header{
-    background-image:url('/portfolio-images/developer.png'),url('/portfolio-images/header_bg.png');
+    background-image:url('../portfolio-images/developer.png'),url('../portfolio-images/header_bg.png');
     background-repeat:no-repeat;
     background-position:top left,bottom right;
 }
