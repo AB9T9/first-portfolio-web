@@ -192,3 +192,12 @@ main{
     .footer-column a img{
         margin-right:20px;
     }
+    @media  screen and (max-width:576px) {
+    .skills-container,.resume-container,.myfooter,.about-items{
+        flex-direction: column;
+    }
+    main,.myfooter{
+    padding:10px;
+    }
+    
+}
