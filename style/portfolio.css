@@ -1,47 +1,50 @@
-
-
-.open-sans-normal{
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-    max-width:1600px;
-    max-height:887px;
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    max-width: 1600px;
+    max-height: 887px;
 }
 
 
-.headname{
-    font-size:45px;
-    font-weight:bolder;
+.headname {
+    font-size: 45px;
+    font-weight: bolder;
 
 }
-span{
- color:#FD6E0A;
+
+span {
+    color: #FD6E0A;
 }
 
-nav ul li{
-    list-style:none;
-     margin-right:30px;
+nav ul li {
+    list-style: none;
+    margin-right: 30px;
 }
-ul li a{
-    text-decoration:none;
-    color:black;
-    font-size:20px
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px
 }
-nav{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    margin:0px 200px;
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
 
 }
-nav ul{
-    display:flex;
-    align-items:center;
-   
+
+nav ul {
+    display: flex;
+    align-items: center;
+
 }
-.btn-primary{
+
+.btn-primary {
     /* background-color:#FD6E0A;
     padding:10px;
     color:white;
@@ -54,67 +57,79 @@ nav ul{
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
-} 
-.portfolio-image{
-    max-width: 580px;
-    margin-bottom:0px;
 }
-.banner{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+
+.portfolio-image {
+    max-width: 580px;
+    margin-bottom: 0px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0px 35px 0px 200px;
-    
+
 
 }
-.banner-content{
-   max-width:580px;
-   
- 
+
+.banner-content {
+    max-width: 580px;
+
+
 }
-.header{
-    background-image:url('../portfolio-images/developer.png'),url('../portfolio-images/header_bg.png');
-    background-repeat:no-repeat;
-    background-position:top left,bottom right;
+
+.header {
+    background-image: url('../portfolio-images/developer.png'), url('../portfolio-images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
-main{
-       max-width: 1167px;
-       border-radius: 10px;
+
+main {
+    max-width: 1167px;
+    border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin:0 auto;
-        background-color:#FFF8F3;
+    margin: 0 auto;
+    background-color: #FFF8F3;
 
 }
-.section-title{
-    text-align:center;
+
+.section-title {
+    text-align: center;
 }
-.class-section{
- width:827px;
- margin:0 auto;
- border:1px solid black;
- background-color:white;
- margin:130px auto;
-  
-}
-.about-items{
-    display:flex;
-    justify-content:space-evenly;
-    width:782;
-}
-.about-title{
-    text-align:center;
-}
-.title-describtion{
-     font-weight: 600;
-}
-.skills-container{
-    display:flex;
-    gap:30px;
-   
+
+.class-section {
+    width: 827px;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: white;
+    margin: 130px auto;
 
 }
-.skill{
+
+.about-items {
+    display: flex;
+    justify-content: space-evenly;
+    width: 782;
+}
+
+.about-title {
+    text-align: center;
+}
+
+.title-describtion {
+    font-weight: 600;
+}
+
+.skills-container {
+    display: flex;
+    gap: 30px;
+
+
+}
+
+.skill {
     /* width:267px;
     background-color:#FFFFFF;
     text-align:justify;
@@ -125,46 +140,56 @@ main{
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-  
-    width:267px;
-    text-align:justify;
+
+    width: 267px;
+    text-align: justify;
 }
-.skills{
-   padding:20px;
+
+.skills {
+    padding: 20px;
 }
-.section-describtion{
-    margin-bottom:10px;
+
+.section-describtion {
+    margin-bottom: 10px;
 }
-.resume-container{
-    display:flex;
-    gap:40px;
+
+.resume-container {
+    display: flex;
+    gap: 40px;
 }
-.experience-sub-title{
+
+.experience-sub-title {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
 }
-.resume{
-    margin:30px 5px;
+
+.resume {
+    margin: 30px 5px;
 }
-.resume-download-cv{
-    margin-top:50px;
+
+.resume-download-cv {
+    margin-top: 50px;
 }
-.experience{
-    text-align:left;
+
+.experience {
+    text-align: left;
 }
-.myfooter{
-  
-    margin:0px auto;
-    display:flex;
-    padding:130px 130px;
-    gap:100px;
+
+.myfooter {
+
+    margin: 0px auto;
+    display: flex;
+    padding: 130px 130px;
+    gap: 100px;
     background-color: #FFF8F3;
 }
-.footer-column{
-    width:50%;
-   
+
+.footer-column {
+    width: 50%;
+
 }
+
 /* footer{
     padding: 130px 230px;
     display: flex;
@@ -180,24 +205,53 @@ main{
     padding: 10px 20px;
     margin-bottom: 24px;
     border: none; */
-    footer input[type="text"],footer input[type="email"],footer textarea{
-        display:block;
-      height:64px;
-      width:100%;
-      border:none;
-      background-color:white;
-      margin-bottom:24px;
-      border-radius:5px;
-    }
-    .footer-column a img{
-        margin-right:20px;
-    }
-    @media  screen and (max-width:576px) {
-    .skills-container,.resume-container,.myfooter,.about-items{
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    display: block;
+    height: 64px;
+    width: 100%;
+    border: none;
+    background-color: white;
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
+
+.footer-column a img {
+    margin-right: 20px;
+}
+
+@media screen and (max-width:576px) {
+
+    .skills-container,
+    .resume-container,
+    .myfooter,
+    .about-items,nav,.banner{
         flex-direction: column;
     }
-    main,.myfooter{
-    padding:10px;
+
+    .myfooter,main {
+        padding: 10px;
+        justify-content:center;
+        align-items:center;
+        
     }
-    
+    .banner,nav{
+        margin:20px;
+    }
+    .class-section{
+        width:auto;
+    }
+    .resume-container{
+        padding:10px;
+    }
+    .header{
+        background-image:none;
+    }
+.portfolio-image img{
+    width:100%;
+}
+.btn-primary{
+    margin:10px;
+}
 }
