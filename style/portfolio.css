@@ -251,7 +251,8 @@ footer textarea {
 .portfolio-image img{
     width:100%;
 }
-.btn-primary{
-    margin:10px;
+.portfolio-image{
+    width:auto;
 }
+
 }
